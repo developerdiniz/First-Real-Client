@@ -10,21 +10,20 @@
   }
 
 header{
-    align-items: center;
     background-color: #FFF5EE;
     height: 100vh;
-    justify-content: center;
 }
 .menu {
     height: auto;
-    background-color: #FFC0CB;
+    width: auto;
+    background-color:  #40E0D0;
 }
 
 a{
-    color: #40E0D0;
+    color: #FFC0CB;
     text-decoration: none;
     font-family: 'Abril Fatface', cursive;
-    font-size: 20px;
+    font-size: 25px;
 }
 .menu li{
     list-style: none;
@@ -32,4 +31,23 @@ a{
 .menu ul{
     display: flex;
     justify-content: space-around;
+}
+
+@media (max-width: 499px){
+    a {
+        color: red;
+        font-size: 15px;
+    }
+}
+@media (min-width: 500px){
+    a {
+        color: chartreuse;
+        font-size: 20px;
+    }
+}
+@media (min-width: 800px){
+    a {
+      font-size: 25px;
+      color: black;
+    }
 }
