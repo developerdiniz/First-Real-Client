@@ -2,8 +2,34 @@
 #FFC0CB
 #FFF5EE
 #40E0D0 */
-
+/* soft reset do css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 
 header{
-    background-color: #40E0D0;
+    align-items: center;
+    background-color: #FFF5EE;
+    height: 100vh;
+    justify-content: center;
+}
+.menu {
+    height: auto;
+    background-color: #FFC0CB;
+}
+
+a{
+    color: #40E0D0;
+    text-decoration: none;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 20px;
+}
+.menu li{
+    list-style: none;
+}
+.menu ul{
+    display: flex;
+    justify-content: space-around;
 }
